@@ -1,0 +1,5 @@
+FROM registry.fedoraproject.org/fedora:41 
+
+
+RUN dnf update -y && \
+    dnf install -y git podman
